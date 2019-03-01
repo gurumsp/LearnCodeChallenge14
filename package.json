@@ -1,0 +1,36 @@
+{
+  "name": "memory_game",
+  "version": "0.1.0",
+  "description": "This is a code challenge 14 for learning HTML CSS and actions. We are building a memory game.",
+  "private": true,
+  "author": "gurumsp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurumsp/LearnCodeChallenge14.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gurumsp/LearnCodeChallenge14/issues"
+  },
+  "homepage": "https://github.com/gurumsp/LearnCodeChallenge14#readme",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
