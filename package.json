@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/gurumsp/LearnCodeChallenge14/issues"
   },
-  "homepage": "https://github.com/gurumsp/LearnCodeChallenge14#readme",
+  "homepage": "https://gurumsp.github.io/LearnCodeChallenge14",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -21,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
